@@ -6,6 +6,6 @@ PhysicsMaterial2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ground-Bouncer
+  m_Name: TopDown-Bouncer
   friction: 0.05
-  bounciness: 0.2
+  bounciness: 1
