@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 87276489}
   - component: {fileID: 87276488}
   m_Layer: 0
-  m_Name: Player
+  m_Name: StrongPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 240982284}
   - component: {fileID: 240982283}
   m_Layer: 0
-  m_Name: Poloska
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 1094872134}
   - component: {fileID: 1094872133}
   m_Layer: 0
-  m_Name: Square-Boom
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
