@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class VelocityControl : MonoBehaviour
 {
+    const float maxVel = 20;
 		public Rigidbody2D rbToControl;
-    const int max = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -19,13 +19,12 @@ public class VelocityControl : MonoBehaviour
     	var prevX = rbToControl.velocity.x;
     	var prevY = rbToControl.velocity.y;
 
-    	if (prevX > max) prevX = max;
-    	if (prevX < -max) prevX = -max;
+    	if (prevX > maxVel) prevX = maxVel;
+    	if (prevX < -maxVel) prevX = -maxVel;
 
-    	if (prevY > max) prevY = max;
-    	if (prevY < -max) prevY = -max;
+    	if (prevY > maxVel) prevY = maxVel;
+    	if (prevY < -maxVel) prevY = -maxVel;
 
     	rbToControl.velocity = new Vector2(prevX, prevY);
-
     }
 }
