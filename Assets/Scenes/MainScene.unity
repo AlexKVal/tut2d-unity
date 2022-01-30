@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 87276490}
   - component: {fileID: 87276489}
   - component: {fileID: 87276488}
+  - component: {fileID: 87276492}
   m_Layer: 0
   m_Name: RedPlayer
   m_TagString: Untagged
@@ -254,6 +255,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.638}
+--- !u!114 &87276492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87276487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e72de0c8e143432b8386ac2faa29806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rbToControl: {fileID: 87276488}
 --- !u!1 &131819636
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,6 +581,7 @@ GameObject:
   - component: {fileID: 1023377922}
   - component: {fileID: 1023377921}
   - component: {fileID: 1023377920}
+  - component: {fileID: 1023377924}
   m_Layer: 0
   m_Name: BigPlayer
   m_TagString: Untagged
@@ -676,6 +691,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.638}
+--- !u!114 &1023377924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023377919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e72de0c8e143432b8386ac2faa29806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rbToControl: {fileID: 1023377921}
 --- !u!1 &1094872132
 GameObject:
   m_ObjectHideFlags: 0
